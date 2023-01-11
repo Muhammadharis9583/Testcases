@@ -27,7 +27,7 @@ public class MainPageTest {
         SelenideLogger.addListener("allure", new AllureSelenide());
 
         Configuration.headless = true;
-        Configuration.timeout = 60;
+       // Configuration.timeout = 60;
     }
 
     @Test
